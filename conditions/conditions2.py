@@ -61,12 +61,12 @@ else:
 ad, kilo, boy = input("Ad kilo boy bilgilerinizi giriniz: ").split()
 indeks = float(kilo) / float(boy)**2
 if(indeks>=0 and indeks<= 18.4):
-	print(" ", ad, " kilo degerlendirmen: zayif")
+	print(ad, " kilo degerlendirmen: zayif")
 elif(indeks>18.4 and indeks<=24.9):
-	print(" ", ad, " kilo degerlendirmen: normal")
+	print(ad, " kilo degerlendirmen: normal")
 elif(indeks>24.9 and indeks<=29.9):
-	print(" ", ad, " kilo degerlendirmen: kilolu")
+	print(ad, " kilo degerlendirmen: kilolu")
 elif(indeks>29.9 and indeks<=34.9):
-	print(" ", ad, " kilo degerlendirmen: obez")
+	print(ad, " kilo degerlendirmen: obez")
 else:
 	print("Hatali bilgi girdiniz")

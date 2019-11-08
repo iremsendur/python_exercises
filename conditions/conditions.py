@@ -1,9 +1,9 @@
 #Condition statements
 name, age, edct = input("Isim, yas ve egitim bilgilerinizi giriniz: ").split()
 if(int(age) >= 18 and (edct == "lise" or edct == "universite")):
-	print(" ", name, " ehliyet alabilir\n")
+	print(name, " ehliyet alabilir\n")
 else:
-	print(" ", name, " ehliyet alamaz\n")
+	print(name, " ehliyet alamaz\n")
 
 #*****************************************************************
 

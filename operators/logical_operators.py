@@ -30,7 +30,7 @@ else:
 
 ad, kilo, boy = input("Ad kilo boy bilgilerinizi giriniz: ").split()
 indeks = float(kilo) / float(boy)**2
-print(" " ,ad," zayif mi ", (indeks>0 and indeks<18.4))
-print(" " ,ad," normal mi ", (indeks>18.5 and indeks<24.9))
-print(" ",ad," fazla kilolu mu ", (indeks>25.0 and indeks<29.9))
-print(" ",ad," obez mi ", (indeks>30.0 and indeks<34.9))
+print(ad," zayif mi ", (indeks>0 and indeks<18.4))
+print(ad," normal mi ", (indeks>18.5 and indeks<24.9))
+print(ad," fazla kilolu mu ", (indeks>25.0 and indeks<29.9))
+print(ad," obez mi ", (indeks>30.0 and indeks<34.9))
